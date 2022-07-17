@@ -1,5 +1,6 @@
 # Write your code below game_hash
 require 'pry'
+require 'awesome_print'
 
 def game_hash
   {
@@ -137,7 +138,7 @@ def num_points_scored(name)
   game_hash.each do |key, value|
     # binding.pry
     # value.each do |attribute, data|
-    #   binding.pry
+      # binding.pry
     # end
 
     value[:players].each do |player|
@@ -287,7 +288,7 @@ def big_shoe_rebounds
   return player_big_shoe_rebounds
 end
 # TEST big_shoe_rebounds
-big_shoe_rebounds
+# big_shoe_rebounds
 
 
 
